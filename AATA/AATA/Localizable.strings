@@ -1,0 +1,38 @@
+/* 
+ Localizable.strings
+ AATA
+ 
+ Created by Uday Patel on 28/09/21.
+ 
+ */
+"YES" = "YES";
+"NO" = "NO";
+"OKAY" = "OKAY";
+"CANCEL" = "CANCEL";
+"Error" = "Error";
+"Something Went Wrong Please Try Again Later." = "Something Went Wrong Please Try Again Later.";
+"This App Requires An Internet Connection. Make Sure You Have Cell Service Or Wifi Connection And Give It Another Try." = "This App Requires An Internet Connection. Make Sure You Have Cell Service Or Wifi Connection And Give It Another Try.";
+"Data not found." = "Data not found.";
+"Notes not found." = "Notes not found.";
+"Weather data not found." = "Weather data not found.";
+"No Record Found." = "No Record Found.";
+"Device data not found." = "Device data not found.";
+"Please enter email." = "Please enter email.";
+"Please enter first name." = "Please enter first name.";
+"Please enter last name." = "Please enter last name.";
+"Please enter phone number." = "Please enter phone number.";
+"Please enter valid email." = "Please enter valid email.";
+"Please enter password." = "Please enter password.";
+"Please enter confirm password." = "Please enter confirm password.";
+"Please eneter valid confirm password." = "Please eneter valid confirm password.";
+"Please enter valid verification code." = "Please enter valid verification code.";
+"Please enter user name." = "Please enter user name.";
+"Please enter old password." = "Please enter old password.";
+"Please enter new password." = "Please enter new password.";
+"No property found. If the problem persists, please contact your system administrator." = "No property found. If the problem persists, please contact your system administrator.";
+"Please enter a title for note." = "Please enter a title for note.";
+"Please enter a decription for note." = "Please enter a decription for note.";
+"Password reset successfully." = "Password reset successfully.";
+"Could not set password." = "Could not set password.";
+"Are you sure you want to delete this note?" = "Are you sure you want to delete this note?";
+"deleteDeviceConfirmation"="Are you sure, you want to delete this device?";

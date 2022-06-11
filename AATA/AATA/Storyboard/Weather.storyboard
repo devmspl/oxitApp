@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Weather ListVC-->
+        <scene sceneID="zaK-pj-raA">
+            <objects>
+                <viewController storyboardIdentifier="WeatherListVC" id="I6X-Qo-Y3y" customClass="WeatherListVC" customModule="AATA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F9M-TS-2ig">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3Mm-Ps-Rmn">
+                                <rect key="frame" x="0.0" y="54" width="414" height="808"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DjT-IT-7CA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Mm-Ps-Rmn" firstAttribute="leading" secondItem="DjT-IT-7CA" secondAttribute="leading" id="HM7-YF-xno"/>
+                            <constraint firstItem="DjT-IT-7CA" firstAttribute="trailing" secondItem="3Mm-Ps-Rmn" secondAttribute="trailing" id="N0X-tR-2fI"/>
+                            <constraint firstItem="DjT-IT-7CA" firstAttribute="bottom" secondItem="3Mm-Ps-Rmn" secondAttribute="bottom" id="b90-Jw-xta"/>
+                            <constraint firstItem="3Mm-Ps-Rmn" firstAttribute="top" secondItem="DjT-IT-7CA" secondAttribute="top" constant="10" id="prr-vQ-v7d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="weatherInfoTable" destination="3Mm-Ps-Rmn" id="awd-oH-KVD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q8M-v3-dLx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-114" y="88"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
