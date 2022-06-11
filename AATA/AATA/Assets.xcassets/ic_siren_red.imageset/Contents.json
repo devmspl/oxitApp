@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_siren_red.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

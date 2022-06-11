@@ -1,0 +1,41 @@
+{
+    "UserAgent": "MobileHub/1.0",
+    "Version": "1.0",
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-1:e18129bb-a88c-4df2-bed7-f2f315fe9e7f",
+                "Region": "us-east-1"
+            }
+        }
+    },
+    "IdentityManager": {
+        "Default": {}
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-east-1_IlDeKGxyq",
+            "AppClientId": "7a8pedop4obr0kgejc297le7dl",
+            "AppClientSecret": "6l9jedpvitadhf8d06ij7kel6eiqsioaemav81m6jseseui4fq",
+            "Region": "us-east-1"
+        }
+    },
+    "Auth": {
+        "Default": {
+            "OAuth": {
+                "WebDomain": "nps-stage.auth.us-east-1.amazoncognito.com",
+                "AppClientId": "7a8pedop4obr0kgejc297le7dl",
+                "AppClientSecret": "6l9jedpvitadhf8d06ij7kel6eiqsioaemav81m6jseseui4fq",
+                "SignInRedirectURI": "myapp://",
+                "SignOutRedirectURI": "myapp://",
+                "Scopes": ["openid", "email", "aws.cognito.signin.user.admin", "profile"]
+            }
+        }
+    },
+    "CustomConfiguration": {
+        "ClientId": 59,
+        "hostURL": "https://api-dev.oxtech.com/",
+        "stormGlassHostURL": "https://api.stormglass.io/v2/",
+        "stormGlassAPIKey": "bafe10ac-a5c3-11ec-a97f-0242ac130002-bafe1124-a5c3-11ec-a97f-0242ac130002"
+    }
+}

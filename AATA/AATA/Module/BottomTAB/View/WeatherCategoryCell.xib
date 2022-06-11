@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WeatherCategoryCell" customModule="AATA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ll1-k0-wdr">
+                        <rect key="frame" x="20" y="14.5" width="140" height="21"/>
+                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="18"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EmP-yN-SBl">
+                        <rect key="frame" x="10" y="42" width="160" height="4"/>
+                        <color key="backgroundColor" name="clr_light_bg"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="4" id="goN-50-cQM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="EmP-yN-SBl" secondAttribute="trailing" constant="10" id="0sP-oD-pRX"/>
+                <constraint firstItem="ll1-k0-wdr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="9J2-ZI-aeg"/>
+                <constraint firstItem="EmP-yN-SBl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="Nba-2d-YMG"/>
+                <constraint firstItem="EmP-yN-SBl" firstAttribute="top" secondItem="ll1-k0-wdr" secondAttribute="bottom" constant="6.5" id="SiK-nC-ram"/>
+                <constraint firstAttribute="bottom" secondItem="EmP-yN-SBl" secondAttribute="bottom" constant="4" id="Swg-lM-RvD"/>
+                <constraint firstItem="ll1-k0-wdr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="14.5" id="gEg-9m-QOl"/>
+                <constraint firstItem="ll1-k0-wdr" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="l7n-25-5Ui"/>
+                <constraint firstAttribute="trailing" secondItem="ll1-k0-wdr" secondAttribute="trailing" constant="20" id="rmI-Jp-inn"/>
+            </constraints>
+            <connections>
+                <outlet property="baseIndicator" destination="EmP-yN-SBl" id="n63-RT-oPf"/>
+                <outlet property="titleLabel" destination="ll1-k0-wdr" id="0uc-iY-UNI"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="58.928571428571423"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="clr_light_bg">
+            <color red="0.55686274509803924" green="0.74901960784313726" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

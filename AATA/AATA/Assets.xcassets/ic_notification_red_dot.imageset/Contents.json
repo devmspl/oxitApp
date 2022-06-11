@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_notification_red_dot.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

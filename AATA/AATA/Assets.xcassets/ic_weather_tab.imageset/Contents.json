@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_weather_tab.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
